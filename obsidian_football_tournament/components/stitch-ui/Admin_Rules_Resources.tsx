@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function Admin_Rules_Resources() {
@@ -17,7 +19,7 @@ export default function Admin_Rules_Resources() {
       </p>
 </div>
 <div className="flex items-center gap-space-md">
-<button className="bg-primary hover:bg-surface-tint text-on-primary font-headline-sm uppercase px-space-lg py-3 flex items-center gap-space-sm transition-all shadow-md" onClick={() => {}}>
+<button className="bg-primary hover:bg-surface-tint text-on-primary font-headline-sm uppercase px-space-lg py-3 flex items-center gap-space-sm transition-all shadow-md">
 <span className="material-symbols-outlined">upload_file</span>
         Upload Document
       </button>
@@ -53,15 +55,15 @@ export default function Admin_Rules_Resources() {
 
 <div className="relative flex-1">
 <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
-<input className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 text-body-md border border-outline-variant focus:border-primary outline-none transition-all" id="docSearch" onInput={() => {}} placeholder="Search by title, keyword, or file type..." type="text"/>
+<input className="w-full bg-surface-container-lowest text-on-surface pl-10 pr-space-md py-3 text-body-md border border-outline-variant focus:border-primary outline-none transition-all" id="docSearch" placeholder="Search by title, keyword, or file type..." type="text"/>
 </div>
 
 <div className="flex items-center gap-space-xs overflow-x-auto pb-2 lg:pb-0">
-<button className="category-btn px-space-md py-2 text-label-md uppercase bg-primary text-on-primary transition-all whitespace-nowrap" onClick={() => {}}>All Files</button>
-<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" onClick={() => {}}>Handbooks</button>
-<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" onClick={() => {}}>FIFA Regulations</button>
-<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" onClick={() => {}}>Referee Guides</button>
-<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" onClick={() => {}}>Disciplinary</button>
+<button className="category-btn px-space-md py-2 text-label-md uppercase bg-primary text-on-primary transition-all whitespace-nowrap">All Files</button>
+<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap">Handbooks</button>
+<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap">FIFA Regulations</button>
+<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap">Referee Guides</button>
+<button className="category-btn px-space-md py-2 text-label-md uppercase bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap">Disciplinary</button>
 </div>
 </div>
 
@@ -96,13 +98,13 @@ export default function Admin_Rules_Resources() {
             1,420
           </div>
 <div className="col-span-3 md:col-span-2 flex items-center justify-end gap-space-xs">
-<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" onClick={() => {}} title="Download PDF">
+<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" title="Download PDF">
 <span className="material-symbols-outlined text-[18px]">download</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" onClick={() => {}} title="Preview">
+<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" title="Preview">
 <span className="material-symbols-outlined text-[18px]">visibility</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" onClick={() => {}} title="Delete">
+<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" title="Delete">
 <span className="material-symbols-outlined text-[18px]">delete</span>
 </button>
 </div>
@@ -129,13 +131,13 @@ export default function Admin_Rules_Resources() {
             982
           </div>
 <div className="col-span-3 md:col-span-2 flex items-center justify-end gap-space-xs">
-<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" onClick={() => {}} title="Download PDF">
+<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" title="Download PDF">
 <span className="material-symbols-outlined text-[18px]">download</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" onClick={() => {}} title="Preview">
+<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" title="Preview">
 <span className="material-symbols-outlined text-[18px]">visibility</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" onClick={() => {}} title="Delete">
+<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" title="Delete">
 <span className="material-symbols-outlined text-[18px]">delete</span>
 </button>
 </div>
@@ -162,13 +164,13 @@ export default function Admin_Rules_Resources() {
             412
           </div>
 <div className="col-span-3 md:col-span-2 flex items-center justify-end gap-space-xs">
-<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" onClick={() => {}} title="Download PDF">
+<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" title="Download PDF">
 <span className="material-symbols-outlined text-[18px]">download</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" onClick={() => {}} title="Preview">
+<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" title="Preview">
 <span className="material-symbols-outlined text-[18px]">visibility</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" onClick={() => {}} title="Delete">
+<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" title="Delete">
 <span className="material-symbols-outlined text-[18px]">delete</span>
 </button>
 </div>
@@ -195,13 +197,13 @@ export default function Admin_Rules_Resources() {
             650
           </div>
 <div className="col-span-3 md:col-span-2 flex items-center justify-end gap-space-xs">
-<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" onClick={() => {}} title="Download PDF">
+<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" title="Download PDF">
 <span className="material-symbols-outlined text-[18px]">download</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" onClick={() => {}} title="Preview">
+<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" title="Preview">
 <span className="material-symbols-outlined text-[18px]">visibility</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" onClick={() => {}} title="Delete">
+<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" title="Delete">
 <span className="material-symbols-outlined text-[18px]">delete</span>
 </button>
 </div>
@@ -228,13 +230,13 @@ export default function Admin_Rules_Resources() {
             428
           </div>
 <div className="col-span-3 md:col-span-2 flex items-center justify-end gap-space-xs">
-<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" onClick={() => {}} title="Download PDF">
+<button className="p-2 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface transition-all" title="Download PDF">
 <span className="material-symbols-outlined text-[18px]">download</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" onClick={() => {}} title="Preview">
+<button className="p-2 bg-surface-container hover:bg-secondary hover:text-on-secondary text-on-surface transition-all" title="Preview">
 <span className="material-symbols-outlined text-[18px]">visibility</span>
 </button>
-<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" onClick={() => {}} title="Delete">
+<button className="p-2 bg-surface-container hover:bg-error hover:text-on-error text-on-surface transition-all" title="Delete">
 <span className="material-symbols-outlined text-[18px]">delete</span>
 </button>
 </div>
@@ -247,11 +249,11 @@ export default function Admin_Rules_Resources() {
 <div className="bg-surface w-full max-w-xl p-space-xl shadow-2xl border border-outline-variant relative flex flex-col gap-space-md">
 <div className="flex items-center justify-between">
 <h3 className="text-headline-md font-headline-md uppercase text-on-surface">Upload Official Document</h3>
-<button className="p-2 text-on-surface-variant hover:text-on-surface" onClick={() => {}}>
+<button className="p-2 text-on-surface-variant hover:text-on-surface">
 <span className="material-symbols-outlined">close</span>
 </button>
 </div>
-<form className="flex flex-col gap-space-md" id="uploadForm" onSubmit={() => {}}>
+<form className="flex flex-col gap-space-md" id="uploadForm">
 
 <div className="flex flex-col gap-space-xs">
 <label className="text-label-md uppercase text-on-surface-variant">Document Title</label>
@@ -278,11 +280,11 @@ export default function Admin_Rules_Resources() {
 <span className="font-body-lg text-on-surface">Drag and drop your PDF file here</span>
 <span className="text-body-sm text-on-surface-variant mt-1">Supports PDF up to 50MB</span>
 <input accept=".pdf" className="hidden" id="fileInput" required={true} type="file"/>
-<button className="mt-space-md px-space-md py-2 bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface text-label-md uppercase transition-all" onClick={() => {}} type="button">Browse Files</button>
+<button className="mt-space-md px-space-md py-2 bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface text-label-md uppercase transition-all" type="button">Browse Files</button>
 </div>
 
 <div className="flex items-center justify-end gap-space-md mt-space-sm">
-<button className="px-space-md py-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-headline-sm uppercase transition-all" onClick={() => {}} type="button">Cancel</button>
+<button className="px-space-md py-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-headline-sm uppercase transition-all" type="button">Cancel</button>
 <button className="px-space-xl py-3 bg-primary hover:bg-surface-tint text-on-primary text-headline-sm uppercase transition-all shadow-md" type="submit">Upload & Publish</button>
 </div>
 </form>
@@ -293,7 +295,7 @@ export default function Admin_Rules_Resources() {
 <div className="bg-surface w-full max-w-3xl h-[819px] p-space-lg shadow-2xl border border-outline-variant relative flex flex-col">
 <div className="flex items-center justify-between pb-space-md border-b border-outline-variant/30">
 <h3 className="text-headline-md font-headline-md uppercase text-on-surface" id="previewTitle">Document Preview</h3>
-<button className="p-2 text-on-surface-variant hover:text-on-surface" onClick={() => {}}>
+<button className="p-2 text-on-surface-variant hover:text-on-surface">
 <span className="material-symbols-outlined">close</span>
 </button>
 </div>
@@ -308,8 +310,8 @@ export default function Admin_Rules_Resources() {
 </div>
 </div>
 <div className="flex justify-end gap-space-md">
-<button className="px-space-md py-2 bg-surface-container text-on-surface text-headline-sm uppercase" onClick={() => {}}>Close</button>
-<button className="px-space-md py-2 bg-primary text-on-primary text-headline-sm uppercase flex items-center gap-space-xs" onClick={() => {}}>
+<button className="px-space-md py-2 bg-surface-container text-on-surface text-headline-sm uppercase">Close</button>
+<button className="px-space-md py-2 bg-primary text-on-primary text-headline-sm uppercase flex items-center gap-space-xs">
 <span className="material-symbols-outlined text-[16px]">download</span> Download PDF
         </button>
 </div>

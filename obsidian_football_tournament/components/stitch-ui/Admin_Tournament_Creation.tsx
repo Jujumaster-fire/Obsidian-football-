@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function Admin_Tournament_Creation() {
@@ -11,7 +13,7 @@ export default function Admin_Tournament_Creation() {
 <h1 className="font-headline-xl text-headline-xl text-on-surface">CREATE & CONFIGURE TOURNAMENTS</h1>
 </div>
 <div className="flex items-center gap-space-sm">
-<button className="bg-primary hover:bg-primary-container text-on-primary font-headline-sm px-space-lg py-3 flex items-center gap-space-sm transition-all shadow-sm" onClick={() => {}}>
+<button className="bg-primary hover:bg-primary-container text-on-primary font-headline-sm px-space-lg py-3 flex items-center gap-space-sm transition-all shadow-sm">
 <span className="material-symbols-outlined">add_circle</span>
         New Tournament
       </button>
@@ -188,7 +190,7 @@ export default function Admin_Tournament_Creation() {
 
 <div className="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm z-50 flex items-center justify-center p-gutter hidden" id="create-modal">
 <div className="bg-surface w-full max-w-3xl max-h-[921px] overflow-y-auto p-space-xl shadow-2xl relative">
-<button className="absolute top-6 right-6 p-2 text-on-surface hover:bg-surface-container" onClick={() => {}}>
+<button className="absolute top-6 right-6 p-2 text-on-surface hover:bg-surface-container">
 <span className="material-symbols-outlined">close</span>
 </button>
 <div className="mb-space-lg">
@@ -196,7 +198,7 @@ export default function Admin_Tournament_Creation() {
 <h2 className="font-headline-xl text-headline-lg mt-1">CONFIGURE NEW TOURNAMENT</h2>
 <p className="text-body-sm text-on-surface-variant">Define schedule windows, venues, sport formats, and athlete categories for marquee events.</p>
 </div>
-<form className="flex flex-col gap-space-md" onSubmit={() => {}}>
+<form className="flex flex-col gap-space-md">
 
 <div className="flex flex-col gap-1">
 <label className="font-label-md uppercase text-on-surface-variant">Tournament Name</label>
@@ -269,7 +271,7 @@ export default function Admin_Tournament_Creation() {
 </div>
 
 <div className="flex items-center justify-end gap-space-md mt-space-md pt-4 border-t border-outline-variant/20">
-<button className="px-space-lg py-3 border border-outline-variant text-on-surface font-headline-sm hover:bg-surface-container" onClick={() => {}} type="button">Cancel</button>
+<button className="px-space-lg py-3 border border-outline-variant text-on-surface font-headline-sm hover:bg-surface-container" type="button">Cancel</button>
 <button className="px-space-xl py-3 bg-primary text-on-primary font-headline-sm hover:bg-primary-container shadow-sm" type="submit">Initialize Tournament</button>
 </div>
 </form>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function Admin_Team_Registration() {
@@ -19,7 +21,7 @@ export default function Admin_Team_Registration() {
 <div className="text-label-md text-on-surface-variant uppercase">Total Registered</div>
 <div className="font-headline-lg text-primary">48 Squads</div>
 </div>
-<button className="bg-primary hover:bg-primary-container text-on-primary font-headline-sm px-space-lg py-3 flex items-center gap-space-sm uppercase tracking-wider transition-all shadow-md" onClick={() => {}}>
+<button className="bg-primary hover:bg-primary-container text-on-primary font-headline-sm px-space-lg py-3 flex items-center gap-space-sm uppercase tracking-wider transition-all shadow-md">
 <span className="material-symbols-outlined">add_circle</span> Register New Team
       </button>
 </div>
@@ -94,7 +96,7 @@ export default function Admin_Team_Registration() {
 <option value="Female">Female Category</option>
 </select>
 </div>
-<button className="w-full bg-surface-container-high hover:bg-surface-dim text-on-surface font-headline-sm py-2.5 uppercase transition-all" onClick={() => {}}>
+<button className="w-full bg-surface-container-high hover:bg-surface-dim text-on-surface font-headline-sm py-2.5 uppercase transition-all">
             Apply Filters
           </button>
 </div>
@@ -161,13 +163,13 @@ export default function Admin_Team_Registration() {
 </td>
 <td className="py-4 px-2 text-right">
 <div className="flex items-center justify-end gap-space-xs">
-<button className="p-2 hover:bg-surface-container text-on-surface" onClick={() => {}} title="View Roster">
+<button className="p-2 hover:bg-surface-container text-on-surface" title="View Roster">
 <span className="material-symbols-outlined text-[20px]">visibility</span>
 </button>
-<button className="p-2 hover:bg-tertiary-fixed text-tertiary" onClick={() => {}} title="Change Status">
+<button className="p-2 hover:bg-tertiary-fixed text-tertiary" title="Change Status">
 <span className="material-symbols-outlined text-[20px]">check_circle</span>
 </button>
-<button className="p-2 hover:bg-error-container text-error" onClick={() => {}} title="Delete">
+<button className="p-2 hover:bg-error-container text-error" title="Delete">
 <span className="material-symbols-outlined text-[20px]">delete</span>
 </button>
 </div>
@@ -200,13 +202,13 @@ export default function Admin_Team_Registration() {
 </td>
 <td className="py-4 px-2 text-right">
 <div className="flex items-center justify-end gap-space-xs">
-<button className="p-2 hover:bg-surface-container text-on-surface" onClick={() => {}} title="View Roster">
+<button className="p-2 hover:bg-surface-container text-on-surface" title="View Roster">
 <span className="material-symbols-outlined text-[20px]">visibility</span>
 </button>
-<button className="p-2 hover:bg-tertiary-fixed text-tertiary" onClick={() => {}} title="Approve">
+<button className="p-2 hover:bg-tertiary-fixed text-tertiary" title="Approve">
 <span className="material-symbols-outlined text-[20px]">check_circle</span>
 </button>
-<button className="p-2 hover:bg-error-container text-error" onClick={() => {}} title="Delete">
+<button className="p-2 hover:bg-error-container text-error" title="Delete">
 <span className="material-symbols-outlined text-[20px]">delete</span>
 </button>
 </div>
@@ -239,13 +241,13 @@ export default function Admin_Team_Registration() {
 </td>
 <td className="py-4 px-2 text-right">
 <div className="flex items-center justify-end gap-space-xs">
-<button className="p-2 hover:bg-surface-container text-on-surface" onClick={() => {}} title="View Roster">
+<button className="p-2 hover:bg-surface-container text-on-surface" title="View Roster">
 <span className="material-symbols-outlined text-[20px]">visibility</span>
 </button>
-<button className="p-2 hover:bg-tertiary-fixed text-tertiary" onClick={() => {}} title="Change Status">
+<button className="p-2 hover:bg-tertiary-fixed text-tertiary" title="Change Status">
 <span className="material-symbols-outlined text-[20px]">check_circle</span>
 </button>
-<button className="p-2 hover:bg-error-container text-error" onClick={() => {}} title="Delete">
+<button className="p-2 hover:bg-error-container text-error" title="Delete">
 <span className="material-symbols-outlined text-[20px]">delete</span>
 </button>
 </div>
@@ -277,12 +279,12 @@ export default function Admin_Team_Registration() {
 <h2 className="font-headline-lg uppercase">New Team Registration Portal</h2>
 <p className="text-body-sm text-primary-fixed">Fill out official credentials, upload emblems, and input staff/player lineups for Enugu 2026.</p>
 </div>
-<button className="text-on-primary hover:bg-primary-container p-2" onClick={() => {}}>
+<button className="text-on-primary hover:bg-primary-container p-2">
 <span className="material-symbols-outlined">close</span>
 </button>
 </div>
 
-<form className="p-gutter flex flex-col gap-space-lg" id="newTeamForm" onSubmit={() => {}}>
+<form className="p-gutter flex flex-col gap-space-lg" id="newTeamForm">
 
 <div>
 <h3 className="font-headline-md text-on-surface uppercase mb-space-sm flex items-center gap-space-sm border-b pb-2 border-surface-container">
@@ -323,7 +325,7 @@ export default function Admin_Team_Registration() {
 <div className="font-bold text-on-surface">Drag and drop club crest here, or browse files</div>
 <p className="text-body-sm text-on-surface-variant">Supports PNG, JPG, SVG (Max 5MB, High Resolution recommended)</p>
 <input className="hidden" id="regLogoFile" type="file"/>
-<button className="px-4 py-2 bg-surface border border-outline/40 text-on-surface font-headline-sm uppercase text-[14px]" onClick={() => {}} type="button">Select Logo File</button>
+<button className="px-4 py-2 bg-surface border border-outline/40 text-on-surface font-headline-sm uppercase text-[14px]" type="button">Select Logo File</button>
 </div>
 </div>
 
@@ -359,7 +361,7 @@ export default function Admin_Team_Registration() {
 </div>
 
 <div className="flex items-center justify-end gap-space-md pt-space-md border-t border-surface-container">
-<button className="px-space-lg py-3 bg-surface-container hover:bg-surface-dim text-on-surface font-headline-sm uppercase" onClick={() => {}} type="button">Cancel</button>
+<button className="px-space-lg py-3 bg-surface-container hover:bg-surface-dim text-on-surface font-headline-sm uppercase" type="button">Cancel</button>
 <button className="px-space-xl py-3 bg-primary hover:bg-primary-container text-on-primary font-headline-sm uppercase tracking-wider" type="submit">Submit Team Roster</button>
 </div>
 </form>
@@ -373,7 +375,7 @@ export default function Admin_Team_Registration() {
 <h3 className="font-headline-lg text-on-surface uppercase" id="modalTeamTitle">Team Roster Breakdown</h3>
 <p className="text-body-sm text-on-surface-variant" id="modalTeamMeta">Football / Male Category • 26 Registered Players</p>
 </div>
-<button className="p-2 hover:bg-surface-container text-on-surface" onClick={() => {}}>
+<button className="p-2 hover:bg-surface-container text-on-surface">
 <span className="material-symbols-outlined">close</span>
 </button>
 </div>
@@ -409,7 +411,7 @@ export default function Admin_Team_Registration() {
 </div>
 </div>
 <div className="px-gutter py-space-md bg-surface-container-low border-t border-surface-container flex justify-end">
-<button className="px-6 py-2 bg-primary text-on-primary font-headline-sm uppercase" onClick={() => {}}>Close</button>
+<button className="px-6 py-2 bg-primary text-on-primary font-headline-sm uppercase">Close</button>
 </div>
 </div>
 </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function Teams_Profiles() {
@@ -45,10 +47,10 @@ export default function Teams_Profiles() {
 
 <div className="flex flex-wrap items-center gap-space-sm w-full md:w-auto">
 <span className="font-label-md text-on-surface-variant uppercase mr-2 hidden lg:inline">Filter Category:</span>
-<button className="team-filter-btn px-4 py-2 bg-primary text-on-primary font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="all" onClick={() => {}}>All Teams</button>
-<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="football" onClick={() => {}}>Pro Football</button>
-<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="youth" onClick={() => {}}>Under-21 Elite</button>
-<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="international" onClick={() => {}}>International</button>
+<button className="team-filter-btn px-4 py-2 bg-primary text-on-primary font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="all">All Teams</button>
+<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="football">Pro Football</button>
+<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="youth">Under-21 Elite</button>
+<button className="team-filter-btn px-4 py-2 bg-surface text-on-surface hover:bg-surface-container-highest font-headline-sm text-sm uppercase transition-all shadow-sm" data-filter="international">International</button>
 </div>
 </div>
 </section>
@@ -56,7 +58,7 @@ export default function Teams_Profiles() {
 <section className="max-w-7xl mx-auto px-gutter w-full mb-space-xl">
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="teams-grid">
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="football" data-name="Coal City Rangers" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="football" data-name="Coal City Rangers">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-primary-fixed text-on-primary-fixed font-label-md px-3 py-1 uppercase">Pro Football</span>
@@ -95,7 +97,7 @@ export default function Teams_Profiles() {
 </div>
 </div>
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="international" data-name="Savanna Lions FC" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="international" data-name="Savanna Lions FC">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-secondary-fixed text-on-secondary-fixed font-label-md px-3 py-1 uppercase">International</span>
@@ -134,7 +136,7 @@ export default function Teams_Profiles() {
 </div>
 </div>
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="youth" data-name="Atlantic Warriors U21" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="youth" data-name="Atlantic Warriors U21">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-tertiary-fixed text-on-tertiary-fixed font-label-md px-3 py-1 uppercase">Under-21 Elite</span>
@@ -173,7 +175,7 @@ export default function Teams_Profiles() {
 </div>
 </div>
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="football" data-name="Eko Titanium FC" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="football" data-name="Eko Titanium FC">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-primary-fixed text-on-primary-fixed font-label-md px-3 py-1 uppercase">Pro Football</span>
@@ -212,7 +214,7 @@ export default function Teams_Profiles() {
 </div>
 </div>
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="international" data-name="Zaria Citadel SC" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="international" data-name="Zaria Citadel SC">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-secondary-fixed text-on-secondary-fixed font-label-md px-3 py-1 uppercase">International</span>
@@ -251,7 +253,7 @@ export default function Teams_Profiles() {
 </div>
 </div>
 
-<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="youth" data-name="Benue Titans U21" onClick={() => {}}>
+<div className="team-card bg-surface-container-low shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group" data-category="youth" data-name="Benue Titans U21">
 <div className="p-6">
 <div className="flex items-center justify-between mb-4">
 <span className="bg-tertiary-fixed text-on-tertiary-fixed font-label-md px-3 py-1 uppercase">Under-21 Elite</span>
@@ -296,7 +298,7 @@ export default function Teams_Profiles() {
 <div className="bg-surface max-w-4xl w-full max-h-[921px] overflow-y-auto shadow-2xl relative flex flex-col my-auto">
 
 <div className="relative bg-surface-container-low p-8 border-b border-surface-container-highest">
-<button className="absolute top-6 right-6 w-10 h-10 bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm" onClick={() => {}}>
+<button className="absolute top-6 right-6 w-10 h-10 bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm">
 <span className="material-symbols-outlined">close</span>
 </button>
 <div className="flex flex-col md:flex-row items-start md:items-center gap-space-lg">
@@ -315,9 +317,9 @@ export default function Teams_Profiles() {
 </div>
 
 <div className="bg-surface-container px-8 flex border-b border-surface-container-highest">
-<button className="py-4 px-6 font-headline-sm text-sm uppercase text-primary border-b-2 border-primary transition-all" id="tab-btn-stats" onClick={() => {}}>Tournament Stats</button>
-<button className="py-4 px-6 font-headline-sm text-sm uppercase text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-roster" onClick={() => {}}>Squad Roster</button>
-<button className="py-4 px-6 font-headline-sm text-sm uppercase text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-staff" onClick={() => {}}>Coaching Staff</button>
+<button className="py-4 px-6 font-headline-sm text-sm uppercase text-primary border-b-2 border-primary transition-all" id="tab-btn-stats">Tournament Stats</button>
+<button className="py-4 px-6 font-headline-sm text-sm uppercase text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-roster">Squad Roster</button>
+<button className="py-4 px-6 font-headline-sm text-sm uppercase text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-staff">Coaching Staff</button>
 </div>
 
 <div className="p-8">
@@ -458,7 +460,7 @@ export default function Teams_Profiles() {
 </div>
 
 <div className="bg-surface-container-low p-6 border-t border-surface-container-highest flex justify-end gap-space-sm">
-<button className="px-6 py-3 bg-surface text-on-surface font-headline-sm uppercase hover:bg-surface-container-highest transition-colors" onClick={() => {}}>Close Dossier</button>
+<button className="px-6 py-3 bg-surface text-on-surface font-headline-sm uppercase hover:bg-surface-container-highest transition-colors">Close Dossier</button>
 </div>
 </div>
 </div>

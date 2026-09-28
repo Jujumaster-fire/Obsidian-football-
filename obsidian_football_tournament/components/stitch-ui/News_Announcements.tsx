@@ -242,7 +242,7 @@ export default function News_Announcements() {
 <span className="px-3 py-1 bg-primary-container text-on-primary-container font-label-md uppercase inline-block mb-space-md">Stay Informed</span>
 <h3 className="font-headline-xl text-on-surface uppercase mb-space-sm">Never Miss a Goal or Announcement</h3>
 <p className="font-body-md text-on-surface-variant mb-space-lg">Get daily match digests, exclusive player interviews, and breaking tournament news delivered straight to your inbox.</p>
-<form className="flex flex-col sm:flex-row gap-space-sm justify-center" onSubmit={() => {}}>
+<form className="flex flex-col sm:flex-row gap-space-sm justify-center">
 <input className="px-space-md py-3 bg-surface border border-outline font-body-md text-on-surface flex-grow focus:outline-none focus:border-primary" placeholder="Enter your email address" required={true} type="email"/>
 <button className="px-space-xl py-3 bg-primary text-on-primary font-headline-sm uppercase hover:bg-primary-container transition-colors" type="submit">Subscribe</button>
 </form>

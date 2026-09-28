@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function Competitions() {
@@ -45,17 +47,17 @@ export default function Competitions() {
 
 <section className="w-full bg-surface border-b border-surface-container-high sticky top-20 z-40 backdrop-blur-md bg-surface/90">
 <div className="max-w-7xl mx-auto px-gutter flex items-center gap-space-lg overflow-x-auto">
-<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-primary text-primary flex items-center gap-space-xs transition-colors" id="tab-fixtures" onClick={() => {}}>
+<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-primary text-primary flex items-center gap-space-xs transition-colors" id="tab-fixtures">
 <span className="material-symbols-outlined text-[20px]">calendar_month</span>
 <span>Fixtures</span>
 <span className="ml-2 bg-primary-fixed text-on-primary-fixed text-label-md px-2 py-0.5">12</span>
 </button>
-<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-transparent text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" id="tab-results" onClick={() => {}}>
+<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-transparent text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" id="tab-results">
 <span className="material-symbols-outlined text-[20px]">scoreboard</span>
 <span>Results</span>
 <span className="ml-2 bg-surface-container text-on-surface-variant text-label-md px-2 py-0.5">24</span>
 </button>
-<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-transparent text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" id="tab-stats" onClick={() => {}}>
+<button className="tab-btn py-space-md text-headline-sm uppercase tracking-wide border-b-2 border-transparent text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" id="tab-stats">
 <span className="material-symbols-outlined text-[20px]">leaderboard</span>
 <span>Stats & Standings</span>
 </button>
